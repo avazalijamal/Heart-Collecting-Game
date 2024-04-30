@@ -1,0 +1,127 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: red;
+}
+
+.header{
+    width: 95%;
+    height: 50px;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.header .left{
+    width:70%;
+    height: 45px;
+    /* background-color: green; */
+    float: left;
+    margin-top: 2.5px ;
+}
+.header .left img{
+    width: 45px;
+    height: 45px;
+    background-color: white;
+    float: left;
+    border-radius: 50%;
+}
+.header .left div{
+    width: calc(100% - 45px);
+    height: 45px;
+    /* background-color: chartreuse; */
+    float: right;
+}
+.header .left div h3{
+    text-indent: 10px;
+    color: blue;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22.5px;
+}
+.header .left div p{
+    text-indent: 10px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22.5px;
+}
+
+.header .right{
+    width: 30%;
+    height: 45px;
+    /* background-color: cornflowerblue; */
+    float: right;
+    margin-top: 2.5px;
+}
+.header .right p{
+    text-indent: 5px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22.5px;
+
+}
+
+
+
+.game{
+    width: 396px;
+    height: 396px;
+    /* background-color: yellow; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.game div{
+    width:130px;
+    height:130px;
+    background-color: wheat;
+    float: left;
+    border:1px solid blue;
+    /* text-align: center; */
+}
+.game div:hover{
+    cursor: pointer;
+    background-color: cornflowerblue;
+}
+.game div img{
+    width: 100px;
+    height: 100px;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.nav{
+    width: 95%;
+    height: 50px;
+    background-color: pink;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+}
+.nav img{
+    width: 40px;
+    height: 40px;
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-top: 5px;
+    border:1px solid blueviolet;
+    border-radius: 10px;
+}
+
+.nav img:hover{
+    background-color: white;
+    cursor: pointer;
+}

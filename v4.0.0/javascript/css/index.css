@@ -1,0 +1,123 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: rgb(104, 50, 205);
+}
+
+.basliq{
+    width: 90%;
+    height: 50px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sol{
+    width: 70%;
+    height: 50px;
+    /* background-color: aqua; */
+    float: left;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.sol img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+    /* margin: 0px 10px 0px 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.sol h3 {
+    line-height: 25px
+}
+
+.sol p {
+    line-height: 25px
+}
+
+.sag{
+    width: 30%;
+    height: 50px;
+    /* background-color: yellow ; */
+    float: right;
+}
+
+
+.sag p{
+    line-height: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 800;
+}
+
+.sag p u{
+    text-decoration-color: rgb(104, 50, 205);
+}
+
+.game{
+    width:306px;
+    height: 306px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 36px;
+    border: 1px rgb(104, 50, 205) solid;
+    float: left;
+    text-align: center;
+}
+.item:hover{
+    background-color: rgb(79, 206, 40);
+}
+
+.item img{
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.menu{
+    width: 90%;
+    height: 80px;
+    background-color: aliceblue;
+    margin-top: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.menu a img {
+    width: 60px;
+    height: 60px;
+    margin: 10px;
+    margin-left: 20px;
+}
+
+.img1 {
+    margin-left: 20px;
+}
+
+.img2 {
+    margin-left: 20px;
+}
+
+.img3 {
+    margin-left: 20px;
+}
+ 

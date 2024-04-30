@@ -1,0 +1,103 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* overflow: hidden; */
+}
+
+body{
+    width: 100%;
+    height: auto;
+    background-color: yellowgreen;
+}
+
+.basliq{
+    width: 90%;
+    height: 50px;
+    background-color: aliceblue;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sol{
+    width: 70%;
+    height: 50px;
+    /* background-color: aqua; */
+    float: left;
+}
+
+.sol img{
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    border-radius: 50%;
+    float: left;
+    /* margin: 0px 10px 0px 10px; */
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+
+.sol h3 {
+    line-height: 30px
+}
+
+.sol p{
+
+}
+
+.sag{
+    width: 30%;
+    height: 50px;
+    /* background-color: yellow ; */
+    float: right;
+}
+
+
+.sag p{
+    line-height: 25px;
+}
+
+.sag p u {
+
+}
+
+.game{
+    width:306px;
+    height: 306px;
+    background-color: #fff;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.item{
+    width: 100px;
+    height: 100px;
+    border: 1px blue solid;
+    float: left;
+    text-align: center;
+}
+.item:hover{
+    background-color: aqua;
+}
+
+.item img{
+    margin-top: 15px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+}
+
+.menu{
+
+}
+
+.menu a{
+
+}
+
+.menu a img{
+    
+}
